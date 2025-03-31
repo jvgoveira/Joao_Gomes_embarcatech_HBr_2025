@@ -1,12 +1,12 @@
 # Projetos de Sistemas Embarcados - EmbarcaTech 2025
 
-Autor: **João Vitor Gomes**
+Autor: **João Vitor Gomes de Oliveira**
 
 Curso: Residência Tecnológica em Sistemas Embarcados
 
 Instituição: EmbarcaTech - HBr
 
-Campinas, março de 2025
+Brasília, março de 2025
 
 ---
 
