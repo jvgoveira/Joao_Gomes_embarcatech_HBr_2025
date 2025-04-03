@@ -1,23 +1,27 @@
 # Projetos de Sistemas Embarcados - EmbarcaTech 2025
 
-Autor: **João Vitor Gomes de Oliveira**
+Autor: **João Vitor G. de Oliveira**
 
 Curso: Residência Tecnológica em Sistemas Embarcados
 
 Instituição: EmbarcaTech - HBr
 
-Brasília, março de 2025
+Brasilia, março de 2025
 
 ---
 
-## Sobre este repositório
+## Sobre este repositório:
 
 Este repositório reúne os projetos desenvolvidos ao longo do curso de Sistemas Embarcados, durante a etapa de residência.  
 
-Cada projeto tem sua própria pasta, contendo o código-fonte, documentação e recursos visuais.
+Cada projeto tem sua própria pasta, contendo o código-fonte, descrição, documentação e recursos visuais.
 
 ---
 
-## O que fazer com este arquivo
+## Projetos:
 
-Ao fazer o *fork* do repositório, o aluno está livre para modificar este arquivo como quiser dentro do seu próprio *fork*.
+- [Galton Board Digital](./projetos/galton_board/)
+
+---
+
+>##### Este repositório foi idealizado como uma contribuição para a comunidade de sistemas embarcados.  Fique a vontade para usar as informações aqui contidas no desenvolvimentos das suas própias aplicações.
