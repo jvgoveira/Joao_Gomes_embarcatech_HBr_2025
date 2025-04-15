@@ -12,7 +12,7 @@ Brasilia, março de 2025
 
 ## Sobre este repositório:
 
-Este repositório reúne os projetos e lsiatas de exercícios desenvolvidos ao longo do curso de sistemas embarcados - EmbarcaTech, durante a etapa de residência.  
+Este repositório reúne os projetos e listas de exercícios desenvolvidos ao longo do curso de sistemas embarcados - EmbarcaTech, durante a etapa de residência.  
 
 O repositorio é dividido em dois grandes grupos: 
 
