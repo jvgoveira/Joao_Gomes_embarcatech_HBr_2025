@@ -2,13 +2,12 @@
  *
  *  Copyright(c) JV Gomes. All rights reserved.
  *
- *  Tarefa 6:
- *  @brief  Refaça o programa pratico 01 presente no Ebook do Capítulo de ADC,
- *          mude a unidade de medida da temperatura de celsius para Fahrenheit.
+ *  Tarefa 3:
+ *  @brief      Leitor de temperatrura interna da MCU
  *
  *  @file	    main.c
  *  @author     Joao Vitor G. de Oliveira
- *  @date	    25 Jan 2025
+ *  @date	    14 Abril 2025
  *  @version    1.0
  * 
 ============================================================================ */
@@ -19,10 +18,12 @@
 #include "hardware/adc.h"      // Biblioteca para controle do ADC (Conversor Analógico-Digital).
 
 /* =============================   MACROS   ================================ */
+
 #define ADC_TEMPERATURE_CHANNEL 4   // Canal ADC que corresponde ao sensor de temperatura interno
 
 /* ========================   FUNCTION PROTOTYPE   ========================= */
-float adc_to_temperature(uint16_t adc_value);
+
+float adc_to_temperature(uint16_t adc_value); // Funcao de conversao do valor do ADC
 
 /* =========================   GLOBAL VARIABLES   ========================== */
 
@@ -64,9 +65,9 @@ int main(void)
  *  @brief  A Função converte o valor lido do ADC para temperatura em graus
  *          Celsius
  *
- *  @param adc_value    (uint16_t) Entrada dos valores de ADC 
+ *  @param adc_value    Entrada dos valores de ADC (uint16_t)
  *  
- *  @return temperature (float) Valor de temperatura convertido 
+ *  @return temperature Valor de temperatura convertido (float) 
  * 
  ----------------------------------------------------------------------------*/
 float adc_to_temperature(uint16_t adc_value) 
@@ -75,6 +76,6 @@ float adc_to_temperature(uint16_t adc_value)
     const float conversion_factor = 3.3f / (1 << 12);  // Conversão de 12 bits (0-4095) para 0-3.3V
     float voltage = adc_value * conversion_factor;     // Converte o valor ADC para tensão
     float temperature = 27.0f - (voltage - 0.706f) / 0.001721f;  // Equação fornecida para conversão
-    return temperature;
+    return temperature; // Retorna o valor de temperatura lido
 }
 /* end program */       
