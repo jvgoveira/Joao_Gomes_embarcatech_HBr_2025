@@ -43,7 +43,9 @@ Abaixo você encontrará o link de acesso direto a pasta pertinente ao projeto m
 
 - [Tarefa 3](./Aprendizado/Tarefa3/):  
     Monitor de temperatura interna da MCU
-    
+
+- [Teste Unitario](./Aprendizado/Teste_unitario/):  
+    Teste unitario da funcao de conversao de temperatura
 ---
 
 
